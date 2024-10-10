@@ -91,16 +91,16 @@ const Signup = () => {
               <p>Male</p>
               <input
                 type="checkbox"
-                checked={user.gender === "Male"}
-                onChange={() => handleCheckbox("Male")}
+                checked={user.gender === "male"}
+                onChange={() => handleCheckbox("male")}
                 defaultChecked
                 className="checkbox mx-2" />
             </div>
             <div className='flex items-center'>
               <p>Female</p>
               <input type="checkbox"
-                checked={user.gender === "Female"}
-                onChange={() => handleCheckbox("Female")}
+                checked={user.gender === "female"}
+                onChange={() => handleCheckbox("female")}
                 defaultChecked className="checkbox mx-2" />
             </div>
 
