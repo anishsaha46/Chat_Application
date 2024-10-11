@@ -28,7 +28,7 @@ const Signup = () => {
         withCredentials: true
       });
       if (res.data.success) {
-        navigate("/login");
+        navigate("/login"); //navigate to login page
         toast.success(res.data.message);
       };
     } catch (error) {
