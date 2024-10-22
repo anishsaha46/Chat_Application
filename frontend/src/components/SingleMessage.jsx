@@ -24,7 +24,7 @@ const SingleMessage = () => {
               </div>
              
               <div className="chat-bubble">I hate you!</div>
-              <div className="chat-footer opacity-50 text-black">Seen at 12:46</div>
+             
           </div></>
   )
 }
