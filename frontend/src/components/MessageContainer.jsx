@@ -19,9 +19,9 @@ const MessageContainer = () => {
           </div>
 
 
-          <div className='flex flex-col flex-1'>
+          <div className='flex flex-col flex-1 text-white'>
             {/* shows user status whether he is online or offline */}
-            <div className='flex gap-2 flex-1'>
+            <div className='flex gap-2 flex-1 '>
               <p>Ramu</p>
             </div>
 
